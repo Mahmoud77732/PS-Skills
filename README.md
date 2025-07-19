@@ -5,9 +5,12 @@ A collection of Java projects and solutions for classic data structures and algo
 ## Table of Contents
 - [Collections](#collections)
   - [LinkedList-Reverse](#linkedlist-reverse)
+  - [QueueWithTwoStacks](#queuewithtwostacks)
 - [Strings](#strings)
   - [PalindromeChecker](#palindromechecker)
   - [First Non-Repeating Character](#first-non-repeating-character)
+- [Numbers](#numbers)
+  - [FindMissingNumber](#findmissingnumber)
 
 ---
 
@@ -17,6 +20,11 @@ A collection of Java projects and solutions for classic data structures and algo
 A simple Java project demonstrating how to reverse a singly linked list. Great for learning basic data structures and linked list manipulation.
 - Features: Implementation of singly linked list, reverse function, example usage.
 - [See details and usage](DS-Algo/collections/LinkedList-Reverse/README.md)
+
+### QueueWithTwoStacks
+A Java implementation of a queue using two stacks. Demonstrates how to achieve FIFO queue behavior using only LIFO stack operations.
+- Features: Queue implementation with enqueue, dequeue, peek, and empty operations using two stacks.
+- [See details and usage](DS-Algo/collections/QueueWithTwoStacks/README.md)
 
 ---
 
@@ -29,6 +37,15 @@ Checks if a given string is a palindrome, ignoring spaces, punctuation, and case
 ### First Non-Repeating Character
 Finds the index of the first non-repeating character in a string. Returns -1 if all characters repeat.
 - [See details and usage](DS-Algo/strings/First-Non-Repeating-Char/README.md)
+
+---
+
+## Numbers
+
+### FindMissingNumber
+Finds the missing number in an array containing distinct integers from 1 to n+1. Implements both sum formula and XOR approaches.
+- Features: Two algorithmic approaches (sum formula and XOR), O(n) time complexity.
+- [See details and usage](DS-Algo/numbers/FindMissingNumber/README.md)
 
 ---
 
